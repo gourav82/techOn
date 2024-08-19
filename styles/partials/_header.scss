@@ -1,0 +1,25 @@
+.header{
+    height: 80px;
+
+    &--nav{
+    &--menu{
+        &-item{
+            list-style: none;
+            text-decoration: none;
+            margin-left: 35px;
+            @include max(1024) {
+                margin-left: 15px;
+            }
+        }
+    }
+}
+}
+.active-header{
+    border-radius: 20px;
+    border: 1px solid white;
+    padding: 8px 15px;
+}
+
+h1{
+    color: red;
+}
